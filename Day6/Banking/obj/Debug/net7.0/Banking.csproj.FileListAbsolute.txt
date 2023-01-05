@@ -1,0 +1,12 @@
+D:\IACSD AKURDI\DOT_NET\DN_Assignments\Day6\Banking\obj\Debug\net7.0\Banking.csproj.AssemblyReference.cache
+D:\IACSD AKURDI\DOT_NET\DN_Assignments\Day6\Banking\obj\Debug\net7.0\Banking.GeneratedMSBuildEditorConfig.editorconfig
+D:\IACSD AKURDI\DOT_NET\DN_Assignments\Day6\Banking\obj\Debug\net7.0\Banking.AssemblyInfoInputs.cache
+D:\IACSD AKURDI\DOT_NET\DN_Assignments\Day6\Banking\obj\Debug\net7.0\Banking.AssemblyInfo.cs
+D:\IACSD AKURDI\DOT_NET\DN_Assignments\Day6\Banking\obj\Debug\net7.0\Banking.csproj.CoreCompileInputs.cache
+D:\IACSD AKURDI\DOT_NET\DN_Assignments\Day6\Banking\bin\Debug\net7.0\Banking.deps.json
+D:\IACSD AKURDI\DOT_NET\DN_Assignments\Day6\Banking\bin\Debug\net7.0\Banking.dll
+D:\IACSD AKURDI\DOT_NET\DN_Assignments\Day6\Banking\bin\Debug\net7.0\Banking.pdb
+D:\IACSD AKURDI\DOT_NET\DN_Assignments\Day6\Banking\obj\Debug\net7.0\Banking.dll
+D:\IACSD AKURDI\DOT_NET\DN_Assignments\Day6\Banking\obj\Debug\net7.0\refint\Banking.dll
+D:\IACSD AKURDI\DOT_NET\DN_Assignments\Day6\Banking\obj\Debug\net7.0\Banking.pdb
+D:\IACSD AKURDI\DOT_NET\DN_Assignments\Day6\Banking\obj\Debug\net7.0\ref\Banking.dll

@@ -1,0 +1,12 @@
+D:\IACSD AKURDI\DOT_NET\DN_Assignments\Day5.1\AF\bin\Debug\net7.0\AF.deps.json
+D:\IACSD AKURDI\DOT_NET\DN_Assignments\Day5.1\AF\bin\Debug\net7.0\AF.dll
+D:\IACSD AKURDI\DOT_NET\DN_Assignments\Day5.1\AF\bin\Debug\net7.0\AF.pdb
+D:\IACSD AKURDI\DOT_NET\DN_Assignments\Day5.1\AF\obj\Debug\net7.0\AF.csproj.AssemblyReference.cache
+D:\IACSD AKURDI\DOT_NET\DN_Assignments\Day5.1\AF\obj\Debug\net7.0\AF.GeneratedMSBuildEditorConfig.editorconfig
+D:\IACSD AKURDI\DOT_NET\DN_Assignments\Day5.1\AF\obj\Debug\net7.0\AF.AssemblyInfoInputs.cache
+D:\IACSD AKURDI\DOT_NET\DN_Assignments\Day5.1\AF\obj\Debug\net7.0\AF.AssemblyInfo.cs
+D:\IACSD AKURDI\DOT_NET\DN_Assignments\Day5.1\AF\obj\Debug\net7.0\AF.csproj.CoreCompileInputs.cache
+D:\IACSD AKURDI\DOT_NET\DN_Assignments\Day5.1\AF\obj\Debug\net7.0\AF.dll
+D:\IACSD AKURDI\DOT_NET\DN_Assignments\Day5.1\AF\obj\Debug\net7.0\refint\AF.dll
+D:\IACSD AKURDI\DOT_NET\DN_Assignments\Day5.1\AF\obj\Debug\net7.0\AF.pdb
+D:\IACSD AKURDI\DOT_NET\DN_Assignments\Day5.1\AF\obj\Debug\net7.0\ref\AF.dll
