@@ -1,0 +1,12 @@
+D:\IACSD AKURDI\DOT_NET\MyPractice\Day7\Collections\List\Player\obj\Debug\net7.0\Player.csproj.AssemblyReference.cache
+D:\IACSD AKURDI\DOT_NET\MyPractice\Day7\Collections\List\Player\obj\Debug\net7.0\Player.GeneratedMSBuildEditorConfig.editorconfig
+D:\IACSD AKURDI\DOT_NET\MyPractice\Day7\Collections\List\Player\obj\Debug\net7.0\Player.AssemblyInfoInputs.cache
+D:\IACSD AKURDI\DOT_NET\MyPractice\Day7\Collections\List\Player\obj\Debug\net7.0\Player.AssemblyInfo.cs
+D:\IACSD AKURDI\DOT_NET\MyPractice\Day7\Collections\List\Player\obj\Debug\net7.0\Player.csproj.CoreCompileInputs.cache
+D:\IACSD AKURDI\DOT_NET\MyPractice\Day7\Collections\List\Player\bin\Debug\net7.0\Player.deps.json
+D:\IACSD AKURDI\DOT_NET\MyPractice\Day7\Collections\List\Player\bin\Debug\net7.0\Player.dll
+D:\IACSD AKURDI\DOT_NET\MyPractice\Day7\Collections\List\Player\bin\Debug\net7.0\Player.pdb
+D:\IACSD AKURDI\DOT_NET\MyPractice\Day7\Collections\List\Player\obj\Debug\net7.0\Player.dll
+D:\IACSD AKURDI\DOT_NET\MyPractice\Day7\Collections\List\Player\obj\Debug\net7.0\refint\Player.dll
+D:\IACSD AKURDI\DOT_NET\MyPractice\Day7\Collections\List\Player\obj\Debug\net7.0\Player.pdb
+D:\IACSD AKURDI\DOT_NET\MyPractice\Day7\Collections\List\Player\obj\Debug\net7.0\ref\Player.dll

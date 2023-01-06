@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "TestPlayer/1.0.0": {
+        "dependencies": {
+          "Player": "1.0.0"
+        },
+        "runtime": {
+          "TestPlayer.dll": {}
+        }
+      },
+      "Player/1.0.0": {
+        "runtime": {
+          "Player.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestPlayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Player/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
