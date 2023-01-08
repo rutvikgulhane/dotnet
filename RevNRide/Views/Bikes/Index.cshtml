@@ -1,0 +1,50 @@
+@{
+    ViewData["Title"] = "Index Page";
+    List<Bike> bikeList = ViewData["bikeList"] as List<Bike>;
+        int count = 1;
+}
+<button button type="button" class="btn btn-light" data-mdb-ripple-color="dark">
+    <a class="nav-link text-dark" asp-area="" asp-controller="Bikes" asp-action="Registration_Add">Add Bike</a>
+</button>
+<button button type="button" class="btn btn-light" data-mdb-ripple-color="dark">
+    <a class="nav-link text-dark" asp-area="" asp-controller="Bikes" asp-action="Find_Bike">Find Bike</a>
+</button>
+<button button type="button" class="btn btn-light" data-mdb-ripple-color="dark">
+    <a class="nav-link text-dark" asp-area="" asp-controller="Bikes" asp-action="Registration_Update">Update Bike</a>
+</button>
+<button button type="button" class="btn btn-light" data-mdb-ripple-color="dark">
+    <a class="nav-link text-dark" asp-area="" asp-controller="Bikes" asp-action="Delete_Bike">Delete Bike</a>
+</button>
+
+
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Brand</th>
+      <th scope="col">Name</th>
+      <th scope="col">Model</th>
+    </tr>
+  </thead>
+  <tbody>
+   @foreach(Bike bike in bikeList) {
+     <tr>
+      <th scope="row">@count</th>
+      <td>@bike.Brand</td>
+      <td>@bike.Name</td>
+      <td>@bike.Model</td>
+    </tr>
+    count++;
+   }
+  </tbody>
+</table>    
+@* 
+@{
+    <ol>
+    @foreach(Bike item in bikeList) {
+        <li>@item.Brand @item.Name @item.Model</li>
+    }
+    </ol>
+}
+ *@

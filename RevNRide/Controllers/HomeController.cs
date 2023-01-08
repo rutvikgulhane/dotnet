@@ -1,9 +1,9 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using EmployeeManager.Models;
-using HRManager;
+using RevNRide.Models;
+using System.IO;
 
-namespace EmployeeManager.Controllers;
+namespace RevNRide.Controllers;
 
 public class HomeController : Controller
 {
@@ -16,6 +16,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+       
         return View();
     }
 
@@ -23,15 +24,14 @@ public class HomeController : Controller
     {
         return View();
     }
-
-   
-
+     
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
+
 
 
 }

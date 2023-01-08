@@ -1,4 +1,4 @@
-namespace HRManager;
+namespace EmployeeManager.Models;
 public class Employee{
 
     public int Id{get;set;}
@@ -18,6 +18,11 @@ public class Employee{
     public override string ToString()
     {
         return  "ID-> " +Id +"Name->" + FirstName+ " " + LastName + " \nEmail->" + Email;
+    }
+
+    public override bool Equals(object obj)
+    {
+        return base.Equals(obj);
     }
 
 }

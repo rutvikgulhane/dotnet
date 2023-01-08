@@ -1,4 +1,4 @@
-namespace HRManager;
+namespace EmployeeManager.Models;
 using System.Text.Json;
 public class EmployeeUtils
 {
@@ -31,8 +31,4 @@ public class EmployeeUtils
         empList.ForEach(x => System.Console.WriteLine(x));
         return empList;
     }
-
-
-
-
 }
