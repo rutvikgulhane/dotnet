@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "RevNRideDAL/1.0.0": {
+        "dependencies": {
+          "RevNRideBOL": "1.0.0"
+        },
+        "runtime": {
+          "RevNRideDAL.dll": {}
+        }
+      },
+      "RevNRideBOL/1.0.0": {
+        "runtime": {
+          "RevNRideBOL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RevNRideDAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RevNRideBOL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

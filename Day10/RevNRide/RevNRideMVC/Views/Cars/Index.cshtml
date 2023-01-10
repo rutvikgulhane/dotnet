@@ -1,0 +1,15 @@
+@using RevNRideBOL;
+@{
+    ViewData["Title"] = "Cars Index Page";
+    List<Car> cars = ViewData["cars"] as List<Car>;
+}
+
+@{
+    <ol> 
+        @foreach(Car car in cars) {
+            <a href="/Cars/Car/@car.Id" ><li> @car.ToString()</li></a>
+            <br/>
+            @* Console.WriteLine(car); *@
+        }
+    </ol>
+}

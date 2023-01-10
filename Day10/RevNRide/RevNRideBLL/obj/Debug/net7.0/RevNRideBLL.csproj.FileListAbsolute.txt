@@ -1,0 +1,17 @@
+/media/runner/DATA/IACSD AKURDI/DOT_NET/DN_Assignments/Day10/RevNRide/RevNRideBLL/bin/Debug/net7.0/RevNRideBLL.deps.json
+/media/runner/DATA/IACSD AKURDI/DOT_NET/DN_Assignments/Day10/RevNRide/RevNRideBLL/bin/Debug/net7.0/RevNRideBLL.dll
+/media/runner/DATA/IACSD AKURDI/DOT_NET/DN_Assignments/Day10/RevNRide/RevNRideBLL/bin/Debug/net7.0/RevNRideBLL.pdb
+/media/runner/DATA/IACSD AKURDI/DOT_NET/DN_Assignments/Day10/RevNRide/RevNRideBLL/obj/Debug/net7.0/RevNRideBLL.csproj.AssemblyReference.cache
+/media/runner/DATA/IACSD AKURDI/DOT_NET/DN_Assignments/Day10/RevNRide/RevNRideBLL/obj/Debug/net7.0/RevNRideBLL.GeneratedMSBuildEditorConfig.editorconfig
+/media/runner/DATA/IACSD AKURDI/DOT_NET/DN_Assignments/Day10/RevNRide/RevNRideBLL/obj/Debug/net7.0/RevNRideBLL.AssemblyInfoInputs.cache
+/media/runner/DATA/IACSD AKURDI/DOT_NET/DN_Assignments/Day10/RevNRide/RevNRideBLL/obj/Debug/net7.0/RevNRideBLL.AssemblyInfo.cs
+/media/runner/DATA/IACSD AKURDI/DOT_NET/DN_Assignments/Day10/RevNRide/RevNRideBLL/obj/Debug/net7.0/RevNRideBLL.csproj.CoreCompileInputs.cache
+/media/runner/DATA/IACSD AKURDI/DOT_NET/DN_Assignments/Day10/RevNRide/RevNRideBLL/obj/Debug/net7.0/RevNRideBLL.dll
+/media/runner/DATA/IACSD AKURDI/DOT_NET/DN_Assignments/Day10/RevNRide/RevNRideBLL/obj/Debug/net7.0/refint/RevNRideBLL.dll
+/media/runner/DATA/IACSD AKURDI/DOT_NET/DN_Assignments/Day10/RevNRide/RevNRideBLL/obj/Debug/net7.0/RevNRideBLL.pdb
+/media/runner/DATA/IACSD AKURDI/DOT_NET/DN_Assignments/Day10/RevNRide/RevNRideBLL/obj/Debug/net7.0/ref/RevNRideBLL.dll
+/media/runner/DATA/IACSD AKURDI/DOT_NET/DN_Assignments/Day10/RevNRide/RevNRideBLL/bin/Debug/net7.0/RevNRideBOL.dll
+/media/runner/DATA/IACSD AKURDI/DOT_NET/DN_Assignments/Day10/RevNRide/RevNRideBLL/bin/Debug/net7.0/RevNRideDAL.dll
+/media/runner/DATA/IACSD AKURDI/DOT_NET/DN_Assignments/Day10/RevNRide/RevNRideBLL/bin/Debug/net7.0/RevNRideBOL.pdb
+/media/runner/DATA/IACSD AKURDI/DOT_NET/DN_Assignments/Day10/RevNRide/RevNRideBLL/bin/Debug/net7.0/RevNRideDAL.pdb
+/media/runner/DATA/IACSD AKURDI/DOT_NET/DN_Assignments/Day10/RevNRide/RevNRideBLL/obj/Debug/net7.0/RevNRideBLL.csproj.CopyComplete

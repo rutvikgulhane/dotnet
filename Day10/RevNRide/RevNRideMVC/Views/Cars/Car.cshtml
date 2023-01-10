@@ -1,0 +1,14 @@
+@using RevNRideBOL;
+@{
+    ViewData["Title"] = "Car Page";
+    Car car = ViewData["car"] as Car;
+}
+
+@{
+    <h2>===CAR===</h2>
+    <br/>
+    <p>ID -> @car.Id</p>
+    <p>Make -> @car.Make</p>
+    <p>Model -> @car.Model</p>
+    <p>ModelYear -> @car.ModelYear</p>
+}

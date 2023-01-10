@@ -1,0 +1,15 @@
+/media/runner/DATA/IACSD AKURDI/DOT_NET/DN_Assignments/Day10/RevNRide/RevNRideDAL/bin/Debug/net7.0/RevNRideDAL.deps.json
+/media/runner/DATA/IACSD AKURDI/DOT_NET/DN_Assignments/Day10/RevNRide/RevNRideDAL/bin/Debug/net7.0/RevNRideDAL.dll
+/media/runner/DATA/IACSD AKURDI/DOT_NET/DN_Assignments/Day10/RevNRide/RevNRideDAL/bin/Debug/net7.0/RevNRideDAL.pdb
+/media/runner/DATA/IACSD AKURDI/DOT_NET/DN_Assignments/Day10/RevNRide/RevNRideDAL/obj/Debug/net7.0/RevNRideDAL.csproj.AssemblyReference.cache
+/media/runner/DATA/IACSD AKURDI/DOT_NET/DN_Assignments/Day10/RevNRide/RevNRideDAL/obj/Debug/net7.0/RevNRideDAL.GeneratedMSBuildEditorConfig.editorconfig
+/media/runner/DATA/IACSD AKURDI/DOT_NET/DN_Assignments/Day10/RevNRide/RevNRideDAL/obj/Debug/net7.0/RevNRideDAL.AssemblyInfoInputs.cache
+/media/runner/DATA/IACSD AKURDI/DOT_NET/DN_Assignments/Day10/RevNRide/RevNRideDAL/obj/Debug/net7.0/RevNRideDAL.AssemblyInfo.cs
+/media/runner/DATA/IACSD AKURDI/DOT_NET/DN_Assignments/Day10/RevNRide/RevNRideDAL/obj/Debug/net7.0/RevNRideDAL.csproj.CoreCompileInputs.cache
+/media/runner/DATA/IACSD AKURDI/DOT_NET/DN_Assignments/Day10/RevNRide/RevNRideDAL/obj/Debug/net7.0/RevNRideDAL.dll
+/media/runner/DATA/IACSD AKURDI/DOT_NET/DN_Assignments/Day10/RevNRide/RevNRideDAL/obj/Debug/net7.0/refint/RevNRideDAL.dll
+/media/runner/DATA/IACSD AKURDI/DOT_NET/DN_Assignments/Day10/RevNRide/RevNRideDAL/obj/Debug/net7.0/RevNRideDAL.pdb
+/media/runner/DATA/IACSD AKURDI/DOT_NET/DN_Assignments/Day10/RevNRide/RevNRideDAL/obj/Debug/net7.0/ref/RevNRideDAL.dll
+/media/runner/DATA/IACSD AKURDI/DOT_NET/DN_Assignments/Day10/RevNRide/RevNRideDAL/bin/Debug/net7.0/RevNRideBOL.dll
+/media/runner/DATA/IACSD AKURDI/DOT_NET/DN_Assignments/Day10/RevNRide/RevNRideDAL/bin/Debug/net7.0/RevNRideBOL.pdb
+/media/runner/DATA/IACSD AKURDI/DOT_NET/DN_Assignments/Day10/RevNRide/RevNRideDAL/obj/Debug/net7.0/RevNRideDAL.csproj.CopyComplete
