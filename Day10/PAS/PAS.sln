@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PAS-BLL", "PAS-BLL\PAS-BLL.csproj", "{2D196008-E51C-466E-8C10-F121D265521D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PAS-BOL", "PAS-BOL\PAS-BOL.csproj", "{2118917B-ACE7-4311-B4D3-5F44DAD29E6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PAS-DAL", "PAS-DAL\PAS-DAL.csproj", "{947B1D7E-5E64-41A9-A200-A352704CA471}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D196008-E51C-466E-8C10-F121D265521D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D196008-E51C-466E-8C10-F121D265521D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D196008-E51C-466E-8C10-F121D265521D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D196008-E51C-466E-8C10-F121D265521D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2118917B-ACE7-4311-B4D3-5F44DAD29E6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2118917B-ACE7-4311-B4D3-5F44DAD29E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2118917B-ACE7-4311-B4D3-5F44DAD29E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2118917B-ACE7-4311-B4D3-5F44DAD29E6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{947B1D7E-5E64-41A9-A200-A352704CA471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{947B1D7E-5E64-41A9-A200-A352704CA471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{947B1D7E-5E64-41A9-A200-A352704CA471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{947B1D7E-5E64-41A9-A200-A352704CA471}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
