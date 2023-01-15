@@ -2,12 +2,12 @@ namespace HrManagerDAL.ORM;
 using HrManagerBOL.Entities;
 public interface IDbManager {
     // CRUD for Departments
-    public void InsertDepartment(Department department);
-    public List<Department> GetDepartments();
-    public Department GetDepartment(int id);
+    // public void InsertDepartment(Department department);
+    Task<List<Department>> GetDepartments();
+    Task<Department> GetDepartment(int id);
 
-    public void UpdateDepartment(Department department);
-    public void DeleteDepartment(int id);
+    // public void UpdateDepartment(Department department);
+    // public void DeleteDepartment(int id);
     
     // // CRUD for Employees
     // void InsertEmployee(Employee employee);

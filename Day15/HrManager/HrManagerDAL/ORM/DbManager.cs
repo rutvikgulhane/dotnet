@@ -4,24 +4,24 @@ using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 public class DbManager : IDbManager {
 
-    public List<Department> GetDepartments(){
-        using (DepartmentsContext departmentsContext = new DepartmentsContext())
-        {
-         
-            var departments = from d in departmentsContext.Departments select d;
-            return departments.ToList<Department>();
-        }
+    private readonly DepartmentsContext _departmentsContext;
+
+    public DbManager(DepartmentsContext departmentsContext) {
+        _departmentsContext = departmentsContext;
+    }
+
+    public async Task<List<Department>> GetDepartments(){
+       
+            return await _departmentsContext.Departments.ToListAsync();
     }
     
-    public Department GetDepartment(int id){
-        using (DepartmentsContext departmentsContext = new DepartmentsContext())
-        {
+    public async Task<Department> GetDepartment(int id){
+       
          
-            return departmentsContext.Departments.Find(id);
-        }
+            return await _departmentsContext.Departments.FirstOrDefaultAsync(d=>d.Id==id);
     }
 
-
+/* 
   public void InsertDepartment(Department department)
   {
     using (DepartmentsContext dContext = new DepartmentsContext())
@@ -58,5 +58,5 @@ public class DbManager : IDbManager {
          
             return employeesContext.Employees.ToList<Employee>();
         }
-    }
+    } */
 }
