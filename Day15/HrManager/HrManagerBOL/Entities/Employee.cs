@@ -1,5 +1,5 @@
 ﻿namespace HrManagerBOL.Entities;
-public class Person
+public class Employee
 {
   public int Id{get;set;}
   public string First_name{get;set;}

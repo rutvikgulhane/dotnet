@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HrManagerDAL", "HrManagerDA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HrManagerAPI", "HrManagerAPI\HrManagerAPI.csproj", "{0A29E189-0D56-43CE-A03D-E1A1A8871F8A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HrManagerWebAppReact", "HrManagerWebAppReact\HrManagerWebAppReact.csproj", "{D8651F3C-C2EB-40F0-8061-13C756DC5003}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{0A29E189-0D56-43CE-A03D-E1A1A8871F8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A29E189-0D56-43CE-A03D-E1A1A8871F8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A29E189-0D56-43CE-A03D-E1A1A8871F8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8651F3C-C2EB-40F0-8061-13C756DC5003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8651F3C-C2EB-40F0-8061-13C756DC5003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8651F3C-C2EB-40F0-8061-13C756DC5003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8651F3C-C2EB-40F0-8061-13C756DC5003}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
