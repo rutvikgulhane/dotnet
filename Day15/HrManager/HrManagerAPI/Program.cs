@@ -70,6 +70,7 @@ app.MapPut("/api/departments/update", async (Department updatedDepatment, Depart
     thisDepartment.Department_name = updatedDepatment.Department_name;
     // we save those canges asynchronously and await to avoid the lag and sync issues
     await dContext.SaveChangesAsync();
+    return Results.Ok();
 });
 
 
