@@ -9,9 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HrManagerBLL", "HrManagerBL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HrManagerDAL", "HrManagerDAL\HrManagerDAL.csproj", "{C8F52B2D-E491-433F-B7DD-0C5CF340C127}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HrManagerAPI", "HrManagerAPI\HrManagerAPI.csproj", "{0A29E189-0D56-43CE-A03D-E1A1A8871F8A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HrManagerWebAPI", "HrManagerWebAPI\HrManagerWebAPI.csproj", "{F34045E1-590D-473F-9A01-823187A49B19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HrManagerWebAppReact", "HrManagerWebAppReact\HrManagerWebAppReact.csproj", "{D8651F3C-C2EB-40F0-8061-13C756DC5003}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HrManagerAPI", "HrManagerAPI\HrManagerAPI.csproj", "{8C9686BD-7BE7-4155-A33E-15D81A9E7D5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,5 +42,13 @@ Global
 		{D8651F3C-C2EB-40F0-8061-13C756DC5003}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8651F3C-C2EB-40F0-8061-13C756DC5003}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8651F3C-C2EB-40F0-8061-13C756DC5003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F34045E1-590D-473F-9A01-823187A49B19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F34045E1-590D-473F-9A01-823187A49B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F34045E1-590D-473F-9A01-823187A49B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F34045E1-590D-473F-9A01-823187A49B19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C9686BD-7BE7-4155-A33E-15D81A9E7D5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C9686BD-7BE7-4155-A33E-15D81A9E7D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C9686BD-7BE7-4155-A33E-15D81A9E7D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C9686BD-7BE7-4155-A33E-15D81A9E7D5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

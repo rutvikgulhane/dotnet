@@ -2,7 +2,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\HrManagerBOL\HrManagerBOL.csproj" />
-    <PackageReference Include="MySql.EntityFrameworkCore" Version="6.0.4" />
+    <PackageReference Include="MySql.EntityFrameworkCore" Version="6.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.4" />
+  
   </ItemGroup>
 
   <PropertyGroup>

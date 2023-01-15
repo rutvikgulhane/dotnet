@@ -5,6 +5,7 @@ using HrManagerBOL.Entities;
 
 public class DepartmentsContext : DbContext
 {
+    
     public DbSet<Department> Departments { get; set; }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
