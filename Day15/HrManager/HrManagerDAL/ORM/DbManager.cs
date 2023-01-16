@@ -18,45 +18,50 @@ public class DbManager : IDbManager {
     public async Task<Department> GetDepartment(int id){
        
          
-            return await _departmentsContext.Departments.FirstOrDefaultAsync(d=>d.Id==id);
+        return await _departmentsContext.Departments.FirstOrDefaultAsync(d=>d.Id==id);
+        
     }
 
-/* 
-  public void InsertDepartment(Department department)
+
+  public async Task InsertDepartment(Department department)
   {
-    using (DepartmentsContext dContext = new DepartmentsContext())
-    {
-        dContext.Departments.Add(department);
-        dContext.SaveChanges();
-    }
+    
+        await _departmentsContext.Departments.AddAsync(department);
+        await _departmentsContext.SaveChangesAsync();
+    
   }
 
-  public void UpdateDepartment(Department department)
+  public async Task<Department> UpdateDepartment(Department department)
   {
-    using (DepartmentsContext dContext = new DepartmentsContext())
-    {
-        var thisDepartment = dContext.Departments.Find(department.Id);
+    
+        // we find asynchronously and await for the result
+        var thisDepartment = await _departmentsContext.Departments.FirstOrDefaultAsync(d=> d.Id == department.Id);
         thisDepartment.Department_name = department.Department_name;
-        dContext.SaveChanges();
-    }
+        await _departmentsContext.SaveChangesAsync();
+        return thisDepartment;
   }
 
-  public void DeleteDepartment(int id)
+  public async Task<bool> DeleteDepartment(int id)
   {
-    using (DepartmentsContext dContext = new DepartmentsContext())
-    {
-        dContext.Departments.Remove(dContext.Departments.Find(id));
-        dContext.SaveChanges();
-    }
-  }
-
-
-
-    public List<Employee> GetEmployees(){
-        using (EmployeesContext employeesContext = new EmployeesContext())
+    
+        var department = (_departmentsContext.Departments.FirstOrDefault(d => d.Id  == id));
+        if (department == null)
         {
-         
-            return employeesContext.Employees.ToList<Employee>();
+            return false;
         }
-    } */
+        _departmentsContext.Remove(department);
+        await _departmentsContext.SaveChangesAsync();
+        return true;
+    }
+  
+
+
+
+    // public List<Employee> GetEmployees(){
+    //     using (EmployeesContext employeesContext = new EmployeesContext())
+    //     {
+         
+    //         return employeesContext.Employees.ToList<Employee>();
+    //     }
+    // }
 }

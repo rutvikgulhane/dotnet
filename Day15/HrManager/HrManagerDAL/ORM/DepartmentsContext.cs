@@ -23,5 +23,21 @@ public class DepartmentsContext : DbContext
             entity.Property(e => e.Department_name).IsRequired();
         });
         modelBuilder.Entity<Department>().ToTable("departments");
+        
+        
+         modelBuilder.Entity<Employee>(
+            entity => {
+                entity.HasKey(en => en.Id);
+                entity.Property(en => en.First_name);
+                entity.Property(en => en.Last_name);
+                entity.Property(en => en.Email);
+                entity.Property(en => en.Gender);
+                entity.Property(en => en.Password);
+                entity.Property(en => en.DeptId);
+                entity.Property(en => en.JobId);
+            }
+        );
+
+        modelBuilder.Entity<Employee>().ToTable("employees");
     }
 }
