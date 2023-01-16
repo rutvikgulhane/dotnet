@@ -1,0 +1,38 @@
+﻿@model IEnumerable<EmployeeManagerMVC.Models.Employee>
+@{
+    ViewData["Title"] = "DepartmentList Page";
+    List<Employee> employees = ViewData["employees"] as List<Employee>;
+}
+<h2>Employee Record</h2>
+<table class="table table-light table-striped">
+  <thead>
+    <tr>
+      <th scope="col">EmployeeId</th>
+      <th scope="col">FirstName</th>
+      <th scope="col">LastName</th>
+      <th scope="col">Email</th>
+      <th scope="col">Gender</th>
+      <th scope="col">DepartmentId</th>
+      <th scope="col">JobId</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach(Employee emp in employees) {
+      <tr scope="row">
+        <td>@emp.Id</td>
+        <td>@emp.FirstName</td>
+        <td>@emp.LastName</td>
+        <td>@emp.Email</td>
+        <td>@emp.Gender</td>
+        <td>@emp.Deptid</td>
+        <td>@emp.Jobid</td>
+        <td>
+          <button class="btn btn-warning btn-sm"><a asp-controller="employee" asp-action="edit" asp-route-id="@emp.Id">Edit</a></button>
+          <button class="btn btn-danger btn-sm"><a asp-controller="employee" asp-action="delete" asp-route-id="@emp.Id">Delete</a></button>
+        </td>
+      </tr>
+    }
+  </tbody>
+</table>
+<button class="btn btn-primary"><a asp-controller="Employee" asp-action="Create">Create</a></button>

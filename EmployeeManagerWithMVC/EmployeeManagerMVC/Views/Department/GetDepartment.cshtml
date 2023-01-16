@@ -1,0 +1,14 @@
+@using EmployeeManagerMVC.Models;
+
+@{
+    ViewData["Title"] = "DepartmentList Page";
+    Department department = ViewData["department"] as Department;
+}
+
+<div class="text-center">
+   @{
+    <h3>@department.Id</h3>
+    <h3>@department.DepartmentName</h3> 
+  }
+</div>
+

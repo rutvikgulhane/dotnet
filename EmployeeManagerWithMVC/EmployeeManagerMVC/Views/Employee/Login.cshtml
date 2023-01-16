@@ -1,0 +1,14 @@
+@model EmployeeManagerMVC.Models.Employee;
+@{
+  ViewData["Title"] = "Login Page";
+}
+
+<form method="post" asp-action="Login">
+  <label asp-for="Email"></label>
+  <input asp-for="Email" />
+
+  <label asp-for="Password"></label>
+  <input asp-for="Password" />
+
+  <input type="submit" class="btn btn-primary" value="submit" />
+</form>

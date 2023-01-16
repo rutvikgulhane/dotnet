@@ -1,0 +1,16 @@
+@using EmployeeManagerMVC.Models;
+
+@{
+    ViewData["Title"] = "DepartmentList Page";
+
+}
+
+@{
+<form method="POST" action="/department/Create">
+  <label for="id">Id:</label><br>
+  <input type="number" id="id" name="id" value="" required ><br>
+  <label for="name">Department:</label><br>
+  <input type="name" id="name" name="name" value="" ><br><br>
+  <button type="submit">AddDepartment</button>
+</form> 
+}

@@ -1,0 +1,32 @@
+@model EmployeeManagerMVC.Models.Employee;
+@{
+  ViewData["Title"] = "Edit";
+}
+
+<form class="form-group" method="post" asp-action="edit">
+  <label asp-for="Id"></label> 
+  <input class="form-control" type="hidden" asp-for="Id" /> 
+  
+  <label asp-for="FirstName"></label> 
+  <input class="form-control" asp-for="FirstName" /> 
+  
+  <label asp-for="LastName"></label> 
+  <input class="form-control" asp-for="LastName" /> 
+  
+  <label asp-for="Email"></label> 
+  <input class="form-control" asp-for="Email" /> 
+  
+  <label asp-for="Gender"></label> 
+  <input class="form-control" asp-for="Gender" /> 
+  
+  <label asp-for="Password"></label> 
+  <input class="form-control" asp-for="Password" /> 
+  
+  <label asp-for="Deptid"></label> 
+  <input class="form-control" asp-for="Deptid" /> 
+  
+  <label asp-for="Jobid"></label> 
+  <input class="form-control" asp-for="Jobid" /> 
+
+  <input class="btn btn-info" type="submit" value="submit" />
+</form>
